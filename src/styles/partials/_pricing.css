@@ -1,0 +1,66 @@
+.pricing {
+	text-align: center;
+	border: 1px solid #f0f0f0;
+	color: #777;
+	font-size: 14px;
+	padding-left: 0;
+	margin-bottom: 30px;
+  font-family: 'Lato';
+}
+.pricing img {
+	display: block;
+	margin: auto;
+	width: 32px;
+}
+.pricing li:first-child,
+.pricing li:last-child {
+	padding: 20px 13px;
+}
+.pricing li {
+	list-style: none;
+	padding: 13px;
+	background: rgba(255,255,255,0.8);
+}
+.pricing li + li {
+	color: #333;
+	border-top: 1px solid #f0f0f0;
+}
+.pricing big,
+.pricing h1 {
+	font-size: 32px;
+	color: rgba(255,76,0,0.9);
+}
+.pricing h3 {
+	margin-bottom: 0;
+  font-size: 2.5rem !important;
+	font-weight: bolder !important;
+	color: rgba(255,76,0,0.9) !important;
+}
+.pricing span {
+	font-size: 12px;
+	color: #222;
+	font-weight: normal;
+}
+.pricing li:nth-last-child(2) {
+	padding: 30px 13px;
+}
+.pricing button {
+	width: auto;
+	margin: auto;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 50px;
+	color: #fff;
+	padding: 9px 24px;
+	background: #aaa;
+	opacity: 1;
+	transition: opacity .2s ease;
+  border: none;
+  outline: none;
+}
+.pricing button:hover {
+	opacity: .9;
+}
+.pricing button:active {
+	box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.1);
+}

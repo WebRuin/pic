@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-require('styles//Pricing.scss');
+require('../styles/partials/_pricing.css');
 
 class PricingComponent extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class PricingComponent extends React.Component {
         <div id="second" className="content dark style2">
           <section className="container">
             <div className="row">
-              <div className="3u 12u(narrow)">
+              <div className="4u 12u(narrow)">
                   <ul className="pricing p-green">
                     <li>
                       <i className="fa fa-cog" aria-hidden="true"></i>
@@ -38,7 +38,7 @@ class PricingComponent extends React.Component {
                   </ul>
               </div>
 
-              <div className="3u 12u(narrow)">
+              <div className="4u 12u(narrow)">
                   <ul className="pricing p-yel">
                     <li>
                       <i className="fa fa-cogs" aria-hidden="true"></i>
@@ -58,7 +58,7 @@ class PricingComponent extends React.Component {
                   </ul>
               </div>
 
-              <div className="3u 12u(narrow)">
+              <div className="4u 12u(narrow)">
                   <ul className="pricing p-red">
                     <li>
                       <i className="fa fa-code" aria-hidden="true"></i>
@@ -77,27 +77,7 @@ class PricingComponent extends React.Component {
                     </li>
                   </ul>
               </div>
-
-              <div className="3u 12u(narrow)">
-                  <ul className="pricing p-blue">
-                    <li>
-                      <i className="fa fa-bolt" aria-hidden="true"></i>
-                      <big>Vip</big>
-                    </li>
-                    <li>Responsive Design</li>
-                    <li>Color Customization</li>
-                    <li>HTML5 & CSS3</li>
-                    <li>Styled elements</li>
-                    <li>
-                      <h3>$799</h3>
-                      <span>per month</span>
-                    </li>
-                    <li>
-                      <button>Join Now</button>
-                    </li>
-                  </ul>
-              </div>
-            </div><!-- /row -->
+            </div>{ /*row*/ }
           </section>
         </div>
       </section>

@@ -2,10 +2,11 @@
 
 import React from 'react';
 
-require('styles/Header.scss');
+require('styles/main.scss');
+require('styles/partials/_header.scss');
 
 let HeaderComponent = (props) => (
-  <section idName="header" className="dark">
+  <section className="header dark">
     	<div>
     		<header>
     			<h1>Partners in Code</h1>

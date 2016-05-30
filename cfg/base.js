@@ -44,6 +44,5 @@ module.exports = {
       styles: `${defaultSettings.srcPath}/styles/`,
       config: `${defaultSettings.srcPath}/config/` + process.env.REACT_WEBPACK_ENV
     }
-  },
-  module: {}
+  }
 };

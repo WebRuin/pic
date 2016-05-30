@@ -14,6 +14,9 @@ function getDefaultModules() {
         test: /\.css$/,
         loader: 'style-loader!css-loader!postcss-loader'
       },
+      { test: /vendor\/.+\.(jsx|js)$/,
+        loader: 'imports?jQuery=jquery,$=jquery,this=>window'
+      },
       {
         test: /\.sass/,
         loader: 'style-loader!css-loader!postcss-loader!sass-loader?outputStyle=expanded&indentedSyntax'
@@ -36,6 +39,14 @@ function getDefaultModules() {
       },
       {
         test: /\.(mp4|ogg|svg)$/,
+        loader: 'file-loader'
+      },
+      {
+        test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        loader: 'url-loader?limit=10000&mimetype=application/font-woff'
+      },
+      {
+        test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         loader: 'file-loader'
       }
     ]

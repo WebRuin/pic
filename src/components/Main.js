@@ -1,11 +1,18 @@
 require('normalize.css/normalize.css');
-require('styles/App.css');
+require('styles/main.scss');
 
 import React from 'react';
 import HeaderComponent from './HeaderComponent.js';
 import ContentComponent from './ContentComponent.js';
 import PricingComponent from './PricingComponent.js';
 import FooterComponent from './FooterComponent.js';
+// import '../js/jquery.scrolly.min.js';
+// import '../js/loadCSS.js';
+// import '../js/media-queries.js';
+// import '../js/skel.min.js';
+// import '../js/util.js';
+// import '../js/main.js';
+
 
 let yeomanImage = require('../images/yeoman.png');
 
